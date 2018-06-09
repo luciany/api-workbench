@@ -16,9 +16,9 @@
     "test": "gulp build && gulp test && npm run test-sites",
     "build": "gulp build",
     "watch": "gulp watch",
-    "pullall" : "dev-env-installer pullall",
-    "buildall" : "dev-env-installer buildall",
-    "testall" : "dev-env-installer testall",
+    "pullall": "dev-env-installer pullall",
+    "buildall": "dev-env-installer buildall",
+    "testall": "dev-env-installer testall",
     "devInstall": "dev-env-installer install"
   },
   "providedServices": {
@@ -68,10 +68,10 @@
     "xmlhttprequest": "^1.7.0",
     "xtend": "^4.0.1",
     "yaml-ast-parser": "0.0.34",
-    "raml-1-parser": "1.1.30",
+    "raml-1-parser": "1.1.44",
     "raml-suggestions": "0.0.38",
-    "raml-actions" : "0.0.21",
-    "raml-outline" : "0.0.11"
+    "raml-actions": "0.0.21",
+    "raml-outline": "0.0.11"
   },
   "devDependencies": {
     "coffee-loader": "^0.7.2",
@@ -94,7 +94,7 @@
     "webpack": "1.4.2",
     "node-libs-browser": "^0.5.2",
     "typescript": "1.8.7",
-    "dev-env-installer":"0.0.6",
-    "run-sequence":"^1.0.0"
+    "dev-env-installer": "0.0.6",
+    "run-sequence": "^1.0.0"
   }
 }
